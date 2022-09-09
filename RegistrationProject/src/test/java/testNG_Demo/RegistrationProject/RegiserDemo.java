@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-//sep 9 chandraprakash comment 
+//sep 9 chandraprakash comment -CICD 
 public class RegiserDemo {
 	public WebDriver driver;
 
