@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-07T23:20:01 IST" name="Surefire suite" finished-at="2022-08-07T23:20:01 IST" duration-ms="94">
+  <suite started-at="2022-09-08T17:22:00 IST" name="Suite" finished-at="2022-09-08T17:22:18 IST" duration-ms="17570">
     <groups>
     </groups>
-    <test started-at="2022-08-07T23:20:01 IST" name="Surefire test" finished-at="2022-08-07T23:20:01 IST" duration-ms="94">
-      <class name="testNG_Demo.RegistrationProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2022-08-07T23:20:01 IST" name="shouldAnswerWithTrue" finished-at="2022-08-07T23:20:01 IST" duration-ms="18" status="PASS">
+    <test started-at="2022-09-08T17:22:00 IST" name="Test" finished-at="2022-09-08T17:22:18 IST" duration-ms="17570">
+      <class name="testNG_Demo.RegistrationProject.RegiserDemo">
+        <test-method signature="LaunchApplication()[pri:1, instance:testNG_Demo.RegistrationProject.RegiserDemo@1e6454ec]" started-at="2022-09-08T17:22:00 IST" name="LaunchApplication" finished-at="2022-09-08T17:22:09 IST" duration-ms="8737" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- testNG_Demo.RegistrationProject.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SelectRegistrationForm()[pri:2, instance:testNG_Demo.RegistrationProject.RegiserDemo@1e6454ec]" started-at="2022-09-08T17:22:09 IST" name="SelectRegistrationForm" finished-at="2022-09-08T17:22:12 IST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectRegistrationForm -->
+        <test-method signature="RegisterUser()[pri:3, instance:testNG_Demo.RegistrationProject.RegiserDemo@1e6454ec]" started-at="2022-09-08T17:22:12 IST" name="RegisterUser" finished-at="2022-09-08T17:22:17 IST" duration-ms="5743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterUser -->
+        <test-method signature="ValidationMessage()[pri:4, instance:testNG_Demo.RegistrationProject.RegiserDemo@1e6454ec]" started-at="2022-09-08T17:22:17 IST" name="ValidationMessage" finished-at="2022-09-08T17:22:17 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationMessage -->
+        <test-method signature="CloseApplication()[pri:5, instance:testNG_Demo.RegistrationProject.RegiserDemo@1e6454ec]" started-at="2022-09-08T17:22:17 IST" name="CloseApplication" finished-at="2022-09-08T17:22:18 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- testNG_Demo.RegistrationProject.RegiserDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
